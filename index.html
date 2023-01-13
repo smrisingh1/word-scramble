@@ -1,38 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="words.js" defer></script>
+    <script src="script.js" defer></script>
     <title>word scramble</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="heading">
-            <h2>Word</h2>
-        </div>
-        <div class="border">
-
-        </div>
-        <div class="scramble">
-             exhadbo
-        </div>
-        <div class="hint">
-            hint
-        </div>
-        <div class="time">
-            time left
-        </div>
-        <div class="enter">
-            <input type="text" placeholder="Enter the words">
-        </div>
-        <div class="buttons">
-            <button class="button refresh">Refresh</button>
-            <button class="button check">Check</button>
-
-        </div>
+      <div class="heading">
+        <h2>Word</h2>
+      </div>
+      <div class="border"></div>
+      <div class="scramble"></div>
+      <div class="hint">Hint: <span><b></b></span></div>
+      <div class="time">Time Left : <span><b></b>s</span></div>
+      <div class="enter">
+        <input type="text" placeholder="Enter the words" />
+      </div>
+      <div class="buttons">
+        <button class="button refresh">Refresh</button>
+        <button class="button check">Check</button>
+      </div>
     </div>
-    
-</body>
+  </body>
 </html>

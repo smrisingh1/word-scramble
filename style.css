@@ -16,7 +16,7 @@ body{
 }
 .container{
     /* min-height: 100vh; */
-    width:400px ;
+    width: 30vw;
     background-color: white;
     padding: 20px;
     border-radius: 10px;
@@ -38,7 +38,7 @@ body{
 .scramble{
     padding: 30px 0px;
     text-align: center;
-    letter-spacing: 25px;
+    letter-spacing: 2vw;
     font-size: larger;
     text-transform: uppercase;
     font-family: 'Mukta', sans-serif;
@@ -71,12 +71,14 @@ input{
     padding: 10px;
     border-radius: 5px;
     border-color: rgba(180, 178, 178,0.2);
+    word-wrap: break-word;
 }
 
 .buttons{
     display: flex;
     align-items:center;
     justify-content: space-around;
+    word-wrap: break-word;
 
     
 }
@@ -90,8 +92,8 @@ input{
 }
 
 .button{
-    height: 50px;
-    width: 130px;
+    height: 5vh;
+    width: 10vw;
     border-radius: 5px;
     border-color: rgba(255, 255,255,0.1);
     color: white;
